@@ -15,4 +15,4 @@ for(let i = 0; i <= 10; i++){
     }
 }
 
-console.log(tampung_fibbonacci);
+document.writeln(`<p>bilangan fibbonacci dari 10 adalah : ${tampung_fibbonacci}</p>`);
