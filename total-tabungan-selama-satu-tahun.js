@@ -9,6 +9,7 @@
 
 let uangAndi = 750000;
 let hasil = "";
+let tabungannya;
 
 for(let i = 1; i <= 12; i++){
     let bunga = 0;
@@ -22,9 +23,9 @@ for(let i = 1; i <= 12; i++){
         }
     }
 
-    hasil = hasil + `Tabungan bulan ke ${i} : ${uangAndi.toFixed(2)} \n Bunga : ${bunga.toFixed(2)} \n Sisih : ${sisih.toFixed(2)} \n`;
+    hasil = hasil + `Tabungan bulan ke ${i} : ${uangAndi.toFixed(2)} \n Bunga : ${bunga.toFixed(2)} \n Sisih : ${sisih.toFixed(2)} \n<br><br>`;
     uangAndi = (uangAndi + bunga) - sisih;
 }
 
-document.writeln(hasil);
+document.writeln(`<p>${hasil}</p>`);
 console.log(hasil);
