@@ -14,8 +14,11 @@ function nilaiHasilPangkat(){
 
     function hitungHasil(x,y){
     
-        if(y == 0){
+        if(x != 0 && y == 0){
             return 1;
+            
+        }else if(x == 0 && y != 0){
+            return 0;
         }else if(x == "" || y == ""){
             return "Mohon input data nya terlebih dahulu ya!";
         }else{
