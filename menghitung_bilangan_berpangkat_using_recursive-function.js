@@ -1,4 +1,4 @@
-
+// Kode Program Javascript
 
 const tampil = document.getElementById('tampil');
 
