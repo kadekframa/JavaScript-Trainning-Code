@@ -2,8 +2,7 @@
 
 const tampil = document.getElementById('tampil');
 function faktorial(){
-    let i, no, fakt;
-    fakt = 1;
+    let i, no;
 
     no = document.getElementById("angka");
     let angka = Number(no.value);
