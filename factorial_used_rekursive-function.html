@@ -1,0 +1,87 @@
+<!-- Kode Program HMTL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faktorial Using Rekursive Function</title>
+</head>
+<body>
+    <style>
+        .container-title{
+            background-color: lightblue;
+        }
+        .title, .subtitle{
+            color: black;
+            font-size: 24px;
+        }
+        .container{
+            background-color: lightblue;
+            width: 640px;;
+        }
+        .angka{
+            width: 180px;
+            height: 34px;
+        }
+        .cek_angka{
+            height: 40px;
+            width: 160px;
+            font-size: 20px;
+            color: white;
+            border-radius: 10px;
+            background-color: green;
+        }
+        .identitas{
+            text-align: left;
+            font-size: 16px;
+        }
+        .reset{
+            height: 40px;
+            width: 160px;
+            font-size: 20px;
+            color: white;
+            border-radius: 10px;
+            background-color: darkred;
+        }
+    </style>
+
+    <center>
+        <div>
+            <section>
+                <div class="hero-body">
+                    <div class="container-title">
+                        <br>
+                        <h1 class="title">APLIKASI MENGHITUNG NILAI FAKTORIAL DARI SUATU BILANGAN</h1>
+                        <h2 class="subtitle">HTML & JavaScript</h2>
+                        <br>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="identitas">
+            <p><b>NAMA     : Kadek Frama Danamastyana</b></p>
+            <p><b>NIM      : 1805551101</b></p>
+            <p><b>KELAS    : Algoritma(E)</b></p>
+        </div>
+        <br>
+
+        <div class="container">
+            <br>
+            <h2>Inputkan Bilangan Faktorial</h2>
+            <form action="#">
+                <input class="angka" type="text" name="" id="angka" placeholder="Input bilangan faktorial"><br><br>
+                <button class="cek_angka" type="submit" onclick="faktorial()">Cek Angka</button><br><br>
+                <button class="reset" type="reset" onclick="history.go(0);">Reset</button>
+            </form>
+            <br>
+    
+            <p id="tampil" style="font-size: 30px;"></p><br>
+        </div>
+    </center>
+
+    <script src="factorial_used_rekursive-function.js"></script>
+    
+</body>
+</html>
