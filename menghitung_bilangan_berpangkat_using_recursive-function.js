@@ -1,4 +1,4 @@
-// Kode Program Javascript
+// Kode Program Javascript menggunakan rekursive function
 
 const tampil = document.getElementById('tampil');
 
