@@ -1,3 +1,5 @@
+// Kode program Javascript menggunakan for loop
+
 const tampil = document.getElementById('tampil');
 
 function nilaiHasilPangkat(){
@@ -11,7 +13,7 @@ function nilaiHasilPangkat(){
     let pangkat = Number(bil_pangkat.value);
 
 
-    if(pokok != "" || pangkat != "" ){
+    if(pokok != "" && pangkat != "" ){
         for(let i = 1; i <= pangkat; i++){
             hasil = hasil * pokok;
         }
@@ -24,7 +26,7 @@ function nilaiHasilPangkat(){
     }else{
         hasil = "Dicoba lagi yaa!";
     }
-    
+
     
     let tampilkanKeWindow = hasil;
     tampil.insertAdjacentHTML('afterbegin', `<p>${tampilkanKeWindow}</p>`);
