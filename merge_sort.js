@@ -6,7 +6,7 @@ function urutkan(){
     let i, no;
 
     no = document.getElementById("angka");
-    let convertToNumber = no.serializeArray();
+    let convertToNumber = [no];
 
 
     function merge(left, right) {

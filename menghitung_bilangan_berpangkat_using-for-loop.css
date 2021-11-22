@@ -1,0 +1,36 @@
+
+.container-title{
+    background-color: rgb(115, 186, 123);
+}
+.title, .subtitle{
+    color: black;
+    font-size: 24px;
+}
+.container{
+    background-color: honeydew;
+    width: 640px;;
+}
+.angka{
+    width: 180px;
+    height: 34px;
+}
+.cek_angka{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: green;
+}
+.identitas{
+    text-align: left;
+    font-size: 16px;
+}
+.reset{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: darkred;
+}
