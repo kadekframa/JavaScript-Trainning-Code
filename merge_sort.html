@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merge Sort</title>
+    <link rel="stylesheet" href="merge_sort.css">
 </head>
 <body>
+
+    <center>
+        <div>
+            <section>
+                <div class="hero-body">
+                    <div class="container-title">
+                        <br><br><br>
+                        <h1 class="title">APLIKASI SEDERHANA MENERAPKAN ALGORITMA MERGE SORT</h1>
+                        <br><br><br>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <div class="container">
+            <br>
+            <h2>Inputkan Bilangan Yang Ingin Diurutkan</h2>
+            <form action="#">
+                <input class="angka" type="text" name="" id="arrayAngka" placeholder="Input beberapa bilangan"><br><br>
+                <button class="cek_angka" type="submit" onclick="urutkan()">Urutkan</button><br><br>
+                <button class="reset" type="reset" onclick="history.go(0);">Reset</button>
+            </form>
+            <br>
+    
+            <p id="tampil" style="font-size: 30px;"></p><br>
+        </div>
+    </center>
+
+
     <script src="merge_sort.js"></script>
 </body>
 </html>
