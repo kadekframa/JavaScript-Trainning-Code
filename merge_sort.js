@@ -5,8 +5,17 @@ const tampil = document.getElementById('tampil');
 function urutkan(){
     let i, no;
 
-    no = document.getElementById("angka");
-    let convertToNumber = [no];
+    no = document.getElementById("arrayAngka").value;
+    angkaInput = no.split(',').map(Number);
+
+    // function createArray(...angkanya){
+    //     let convertToNumber = [];
+    //     for (i = 1; i <= angkanya.length; i++) {
+    //         convertToNumber.push(angkanya[i]);
+    //     }
+
+    //     return convertToNumber;
+    // }
 
 
     function merge(left, right) {
@@ -43,9 +52,9 @@ function urutkan(){
     
     // console.log(sort(array).toString());   
     
-    
-    
-    let tampilkan = sort(convertToNumber);
+    // sorting = createArray(angkaInput);
+
+    let tampilkan = sort(angkaInput);
     tampil.insertAdjacentHTML('afterbegin', `<p>${tampilkan}</p>`);
 
 }
