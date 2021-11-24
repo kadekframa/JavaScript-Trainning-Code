@@ -3,15 +3,16 @@
 }
 .title, .subtitle{
     color: black;
-    font-size: 24px;
+    font-size: 30px;
 }
 .container{
-    background-color: lightblue;
+    background-color: rgb(173, 220, 230);
     width: 640px;;
 }
 .angka{
-    width: 180px;
-    height: 34px;
+    width: 300px;
+    height: 46px;
+    font-size: large;
 }
 .cek_angka{
     height: 40px;
